@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renewal Sync</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><a href="./">Renewal Sync</a><nav><a href="privacy.html">Privacy policy</a></nav></header>
+
+<h1>Renewal Sync</h1>
+<p class="lede">A small personal tool that puts household renewal dates into Google Calendar.</p>
+
+<p>Renewal Sync is a PowerShell script that runs once a week on its owner's own Windows PC. It reads a private spreadsheet of renewal and expiry dates (car MOT, insurance, road tax, passports, tax returns and similar) and keeps a matching set of reminders in a dedicated "Renewals" calendar in the owner's Google account.</p>
+
+<h2>Who it is for</h2>
+<p>It is used only by its owner, Sunil, for his own household. It is not offered to the public, there is no sign-up, and no one else's data is handled.</p>
+
+<h2>What it does with Google</h2>
+<p>The script asks for a single, narrow Google Calendar permission (<code>calendar.app.created</code>). This lets it create its own secondary calendar and add, move or remove events on that calendar only. It cannot see or change the owner's main calendar, contacts, email or anything else.</p>
+
+<p>Details of what is stored and how to remove access are in the <a href="privacy.html">privacy policy</a>.</p>
+
+<footer>Contact: <a href="mailto:sunnyshinde@gmail.com">sunnyshinde@gmail.com</a></footer>
+</main>
+</body>
+</html>

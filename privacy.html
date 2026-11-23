@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy - Renewal Sync</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><a href="./">Renewal Sync</a><nav><a href="privacy.html">Privacy policy</a></nav></header>
+
+<h1>Privacy policy</h1>
+<p class="lede">Last updated: 23 November 2026</p>
+
+<p>Renewal Sync is a personal script used only by its owner, Sunil, on his own computer. This page explains what it does with Google account data.</p>
+
+<h2>Google data it accesses</h2>
+<p>The script requests one Google permission: <code>https://www.googleapis.com/auth/calendar.app.created</code>. With it, the script creates a secondary calendar called "Renewals" and creates, updates and deletes events on that calendar. It has no access to any other calendar, or to email, contacts, files or profile information.</p>
+
+<h2>How the data is used</h2>
+<p>Event titles and descriptions come from the owner's own renewals spreadsheet: item names, expiry dates, provider names and notes. They are written to the owner's Google Calendar so that reminders appear on his devices. Nothing is used for advertising, profiling or analytics, and nothing is sold or passed to anyone else.</p>
+
+<h2>Where data is stored</h2>
+<p>The spreadsheet stays on the owner's PC. The script keeps a small local file listing each item, its dates and the matching Google event ID, plus a Google sign-in token. The token and the workbook password are encrypted with Windows Data Protection (DPAPI), so they can be read only by the owner's Windows account on that PC. No data is sent to any server other than Google's.</p>
+
+<h2>Retention and deletion</h2>
+<p>Events stay in the Renewals calendar until the matching spreadsheet entry is removed, at which point the script deletes them. Deleting the Renewals calendar in Google Calendar removes them all. Local files can be deleted at any time from <code>%LOCALAPPDATA%\RenewalSync</code>.</p>
+
+<h2>Removing access</h2>
+<p>Access can be withdrawn at any time from your Google Account, under Security, in the list of third-party apps and services with account access.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:sunnyshinde@gmail.com">sunnyshinde@gmail.com</a></p>
+
+<footer>Renewal Sync is a personal project and is not affiliated with Google.</footer>
+</main>
+</body>
+</html>
